@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="nab">
+        <folderThumbnail/>
+    </jcr:content>
+    <asset.jpg/>
+    <documents/>
+    <Bitcoin_x0020_Icon.svg/>
+    <Bitcoin_x0020_Logo.png/>
+    <Ethereum_x0020_Icon.svg/>
+    <Bitcoin_x0020_Background.jpg/>
+    <Ethereum_x0020_Background.jpg/>
+    <content.doc/>
+    <Ethereum_x0020_Logo.png/>
+    <Litecoin_x0020_Background.png/>
+    <Litecoin_x0020_Icon.svg/>
+    <Litecoin_x0020_Logo.png/>
+</jcr:root>

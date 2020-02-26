@@ -1,0 +1,46 @@
+<sly data-sly-use.dcProfitModel="com.nab.core.models.CurrencyProfitModel" />
+<sly data-sly-test="${dcProfitModel.profit}">
+	<div class="container">
+		<div class="container-fluid">
+	      <div class="title"><h2>${properties.profitTitle}</h2></div><br>
+	     	<table class="profit-table table table-striped">
+				<thead>
+					<tr>
+	                	<sly data-sly-list.maxProfit="${dcProfitModel.profit}">
+	                        <th class="currency-title">${maxProfit.currency}</th>
+	                        <th></th>
+	                     </sly>   
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>${properties.buyTitle @ context = 'html'}</td>
+						<td>${properties.sellTitle @ context = 'html'}</td>
+	                    <td>${properties.buyTitle @ context = 'html'}</td>
+						<td>${properties.sellTitle @ context = 'html'}</td>
+	                    <td>${properties.buyTitle @ context = 'html'}</td>
+						<td>${properties.sellTitle @ context = 'html'}</td>
+					</tr>
+				<tr>
+	            	<sly data-sly-list.maxProfit="${dcProfitModel.profit}">
+	                    <td>$ ${maxProfit.minPrice}</td>
+	                    <td>$ ${maxProfit.maxPrice}</td>
+	                </sly>    
+				</tr>
+				<tr>
+	            	<sly data-sly-list.maxProfit="${dcProfitModel.profit}">
+	                    <td>${maxProfit.minTime}</td>
+	                    <td>${maxProfit.maxTime}</td>
+	                </sly>    
+				</tr>
+				<tr>
+	            	<sly data-sly-list.maxProfit="${dcProfitModel.profit}">
+	                    <td>Profit</td>
+	                    <td>$ ${maxProfit.profit}</td>
+	                 </sly>   
+				</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+</sly>

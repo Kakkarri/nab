@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2020-02-12T00:33:28.919+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/nab/settings/wcm/templates/content-page"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="btc"
+        sling:resourceType="nab/components/structure/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/responsivegrid">
+            <responsivegrid
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wcm/foundation/components/responsivegrid">
+                <textimage
+                    jcr:created="{Date}2020-02-12T00:19:39.216+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2020-02-12T00:33:28.908+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="wcm/foundation/components/textimage"
+                    alignment="top">
+                    <image
+                        jcr:lastModified="{Date}2020-02-12T00:33:28.908+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="wcm/foundation/components/image"
+                        fileReference="/content/dam/nab/Bitcoin Logo.png"
+                        height="50"
+                        width="190"/>
+                    <cq:responsive jcr:primaryType="nt:unstructured">
+                        <default
+                            jcr:primaryType="nt:unstructured"
+                            offset="3"
+                            width="9"/>
+                    </cq:responsive>
+                </textimage>
+                <nabcurrencydetail
+                    jcr:created="{Date}2019-08-23T14:13:31.996+05:30"
+                    jcr:createdBy="admin"
+                    jcr:lastModified="{Date}2019-08-23T14:13:37.514+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="nab/components/content/nabCurrencyDetail"
+                    selectedCurrency="BTC"/>
+            </responsivegrid>
+        </root>
+    </jcr:content>
+</jcr:root>

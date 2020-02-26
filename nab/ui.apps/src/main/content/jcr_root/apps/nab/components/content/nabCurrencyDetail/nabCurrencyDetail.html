@@ -1,0 +1,38 @@
+<div data-sly-test="${(wcmmode.edit || wcmmode.design)}" class="cq-placeholder" data-emptytext="Edit NAB Currency Component"></div>
+<sly data-sly-use.dcModel="com.nab.core.models.DigitalCurrencyModel" />
+<sly data-sly-test="${dcModel.currencyDetail}">
+	<div class="container">
+		<div class="container-fluid">
+	     	<table align="center" class="table currencydetail table-striped table-dark">
+	          <thead>
+	            <tr>
+	              <th scope="col">${dcModel.currencyDetail.date}</th>
+	              <th scope="col">TIME</th>
+	              <th scope="col">PRICE</th>
+	            </tr>
+	          </thead>
+	          <tbody>
+	            <sly data-sly-list="${dcModel.currencyDetail.pricePerTimeList}">
+	            <tr>
+	              <th scope="row"></th>
+	              <sly data-sly-use.time="${'formatTime.js' @ value =item}">
+	                <td> ${time.formattedTime}</td>
+                  </sly>
+	              <td>$ ${dcModel.currencyDetail.pricePerTimeList[item]}</td>
+	            </tr>
+	            </sly>
+	          </tbody>
+	        </table>
+		</div>
+	</div>
+</sly>
+<div class="cta">
+	<a class="btn btn-primary cta-item" href="/content/nab/home.html" role="button">Home</a>
+</div>
+
+
+
+
+
+
+

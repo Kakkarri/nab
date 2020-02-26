@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="8e781d13-8e09-46b0-b61c-e1906ea37ddf">
+    <jcr:content
+        dam:assetState="processed"
+        dam:relativePath="nab/content.doc"
+        jcr:lastModified="{Date}2020-02-08T12:46:08.233+05:30"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:CharCount="{Long}650"
+            dam:CodePage="{Long}10000"
+            dam:CreateDateTime="{Date}2018-11-09T06:00:00.000+05:30"
+            dam:EndTime="{Date}1601-01-01T05:42:00.000+05:30"
+            dam:extracted="{Date}2020-02-08T12:46:07.915+05:30"
+            dam:LastAuthor="Andrew Lewis"
+            dam:LastSaveDateTime="{Date}2018-11-09T06:15:00.000+05:30"
+            dam:LineCount="{Long}5"
+            dam:LinksDirty="False"
+            dam:PageCount="{Long}1"
+            dam:ParCount="{Long}1"
+            dam:RevNumber="{Long}2"
+            dam:Scale="False"
+            dam:Security="{Long}0"
+            dam:sha1="9fbacf04749aeab89af38056d78c6a85374f9124"
+            dam:size="{Long}23552"
+            dam:Template="Normal.dotm"
+            dam:WordCount="{Long}113"
+            dc:creator="Andrew Lewis"
+            dc:format="application/msword"
+            dc:subject=""
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            xmp:CreatorTool="Microsoft Office Word"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

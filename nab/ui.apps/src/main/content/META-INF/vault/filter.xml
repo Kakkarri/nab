@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/nab"/>
+    <filter root="/apps/sling" />
+	<filter root="/conf/nab"/>
+	<filter root="/conf/global/settings/workflow/models/nab-digital-currency-workflow" mode="update"/>
+	<filter root="/conf/global/settings/workflow/launcher/config/1701928092"  mode="update"/>
+	<filter root="/var/workflow/models/nab-digital-currency-workflow" mode="update"/>
+</workspaceFilter>

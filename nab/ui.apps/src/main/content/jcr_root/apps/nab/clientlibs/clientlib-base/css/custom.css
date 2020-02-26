@@ -1,0 +1,60 @@
+.card-img-top {
+	height: 15vw;
+}
+
+.cmp-title__text{
+  text-align: center;
+  padding : 46px;  
+}
+
+
+.nabCurrencyProfit .title {
+    padding: 30px;
+    text-align: center;
+}
+
+.cta {
+	text-align : center;
+    padding: 15px 50px 15px 50px;
+} 
+
+.cta-item {
+	border-color: black;
+    border-style: double;
+    border-radius: 4px;
+}
+
+.currencydetail{
+     width: 60%;
+}    
+
+.profit-table td,.profit-table th {
+	 border-top: 1px solid #26c142;
+}   
+.profit-table thead th  {
+     border-bottom: 2px solid #b732ad75;
+     border-top: 2px solid #b732ad75;
+}               
+
+.currency-title {
+	text-align:center;
+}
+.textimage {
+	margin: 45px;
+    text-align: center;
+}      
+
+@media only screen and (min-device-width : 768px) and (max-device-width
+	: 1024px) {
+.slide {
+		width: 50%;
+	   }
+}
+
+@media only screen and (min-device-width: 1025px) {
+.list {
+    	padding: 15px;
+        width:100%;        
+      }
+}
+   

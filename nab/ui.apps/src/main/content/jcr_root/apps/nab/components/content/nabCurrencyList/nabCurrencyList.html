@@ -1,0 +1,20 @@
+<div data-sly-test="${(wcmmode.edit || wcmmode.design)}" class="cq-placeholder" data-emptytext="Edit Currency List Component"></div>
+<sly data-sly-use.currencyListModel="com.nab.core.models.CurrencyListModel" />
+<div class="container-fluid">
+    <div class="container">   
+        <div class="row list">
+            <sly data-sly-list.currencyList="${currencyListModel.currencyList.children}">
+                <div class="slide col-lg-4 d-flex ">
+                    <div class="card mb-4 shadow-sm flex-fill">
+                        <img class="card-img-top" src=${currencyList.img} alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">${currencyList.title @ context = 'html'}</h4>
+                            <p class="card-text">${currencyList.desc @ context = 'html'}</p>
+                            <a href="${currencyList.url}.html" class="btn btn-cta btn-primary">${currencyList.urlTitle @ context = 'html'}</a>
+                        </div>
+                    </div>
+                </div>
+            </sly>
+        </div>  
+    </div>
+</div>
